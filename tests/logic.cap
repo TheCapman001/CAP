@@ -1,0 +1,6 @@
+the a = 10
+the b = 20
+say a < b
+say NOT false
+say true AND false
+say true OR false

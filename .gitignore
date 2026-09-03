@@ -1,0 +1,4 @@
+cap
+*.o
+*.out
+.DS_Store

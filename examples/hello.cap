@@ -1,0 +1,17 @@
+# CAP example
+
+the name = "Cap"
+the score = 100
+
+say "salute cap"
+say name
+
+if score >= 50
+    say "Passed"
+ifnot
+    say "Try again"
+end
+
+repeat 5
+    say "CAP is coming"
+end

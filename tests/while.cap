@@ -1,0 +1,5 @@
+the n = 0
+while n < 3
+    say n
+    n = n + 1
+end

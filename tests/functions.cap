@@ -1,0 +1,6 @@
+function add(a, b)
+    give a + b
+end
+
+the result = add(7, 8)
+say result

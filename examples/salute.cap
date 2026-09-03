@@ -1,0 +1,3 @@
+# CAP greeting example
+the message = "Salute Cap Man!"
+say message
