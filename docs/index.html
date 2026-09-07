@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAP - Programming Language</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo-section">
+                    <img src="logo.png" alt="CAP Logo" class="logo">
+                    <span class="logo-text">CAP</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#download">Download</a></li>
+                    <li><a href="#examples">Examples</a></li>
+                    <li><a href="#docs">Docs</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>CAP Programming Language</h1>
+                <p class="tagline">A simple, elegant programming language and runtime written in C11</p>
+                <div class="hero-buttons">
+                    <a href="#download" class="btn btn-primary">Download Now</a>
+                    <a href="#docs" class="btn btn-secondary">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2>Features</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Lightweight</h3>
+                    <p>Built in pure C11 with no external dependencies. Fast compilation and execution.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📝</div>
+                    <h3>Simple Syntax</h3>
+                    <p>Clean, readable language syntax perfect for learning programming concepts.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔧</div>
+                    <h3>Full-Featured</h3>
+                    <p>Variables, functions, loops, conditionals, and comprehensive error handling.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🧠</div>
+                    <h3>Interactive</h3>
+                    <p>Built-in <code>say</code> and <code>ask</code> commands for interactive programs.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📚</div>
+                    <h3>Well Documented</h3>
+                    <p>Comprehensive language guide and architecture documentation included.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🧪</div>
+                    <h3>Tested</h3>
+                    <p>Automated test suite with examples demonstrating language capabilities.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What's Included -->
+    <section class="included">
+        <div class="container">
+            <h2>What's Included</h2>
+            <div class="included-grid">
+                <div class="included-item">
+                    <h4>Core Components</h4>
+                    <ul>
+                        <li>Lexer & Tokenizer</li>
+                        <li>Expression Parser</li>
+                        <li>Runtime Evaluator</li>
+                    </ul>
+                </div>
+                <div class="included-item">
+                    <h4>Language Features</h4>
+                    <ul>
+                        <li>Variables & Assignment</li>
+                        <li>Functions & Parameters</li>
+                        <li>Control Flow (if, while, repeat)</li>
+                    </ul>
+                </div>
+                <div class="included-item">
+                    <h4>Data Types</h4>
+                    <ul>
+                        <li>Numbers</li>
+                        <li>Strings</li>
+                        <li>Booleans</li>
+                    </ul>
+                </div>
+                <div class="included-item">
+                    <h4>Tools & Docs</h4>
+                    <ul>
+                        <li>CLI with --help & --version</li>
+                        <li>Examples & Tests</li>
+                        <li>Full Documentation</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Start -->
+    <section class="quick-start">
+        <div class="container">
+            <h2>Quick Start</h2>
+            <div class="quick-start-grid">
+                <div class="quick-start-item">
+                    <h3>1. Build</h3>
+                    <pre><code>make</code></pre>
+                </div>
+                <div class="quick-start-item">
+                    <h3>2. Run Example</h3>
+                    <pre><code>./cap examples/hello.cap</code></pre>
+                </div>
+                <div class="quick-start-item">
+                    <h3>3. Create File</h3>
+                    <pre><code>say "Hello, World!"</code></pre>
+                </div>
+                <div class="quick-start-item">
+                    <h3>4. Run Your Code</h3>
+                    <pre><code>./cap myfile.cap</code></pre>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Examples Section -->
+    <section id="examples" class="examples">
+        <div class="container">
+            <h2>Example Programs</h2>
+            <div class="examples-grid">
+                <div class="example-card">
+                    <h3>Hello World</h3>
+                    <pre><code>say "Hello, World!"</code></pre>
+                </div>
+                <div class="example-card">
+                    <h3>Variables & Math</h3>
+                    <pre><code>x = 10
+y = 20
+say x + y</code></pre>
+                </div>
+                <div class="example-card">
+                    <h3>Conditionals</h3>
+                    <pre><code>x = 5
+if x > 3
+  say "x is greater than 3"
+end</code></pre>
+                </div>
+                <div class="example-card">
+                    <h3>Functions</h3>
+                    <pre><code>function greet(name)
+  say "Hello, " + name
+end
+
+greet "World"</code></pre>
+                </div>
+                <div class="example-card">
+                    <h3>Loops</h3>
+                    <pre><code>x = 0
+while x < 5
+  say x
+  x = x + 1
+end</code></pre>
+                </div>
+                <div class="example-card">
+                    <h3>User Input</h3>
+                    <pre><code>name = ask "What's your name?"
+say "Nice to meet you, " + name</code></pre>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download" class="download">
+        <div class="container">
+            <h2>Download & Install</h2>
+            <div class="download-options">
+                <div class="download-card">
+                    <h3>Pre-built Release</h3>
+                    <p>Download the latest pre-built executable for your platform</p>
+                    <a href="https://github.com/TheCapman001/CAP/releases" class="btn btn-primary">Download Latest Release</a>
+                </div>
+                <div class="download-card">
+                    <h3>Build from Source</h3>
+                    <p>Clone the repository and build CAP yourself</p>
+                    <pre><code>git clone https://github.com/TheCapman001/CAP.git
+cd CAP
+make
+./install.sh</code></pre>
+                </div>
+                <div class="download-card">
+                    <h3>Android / Termux</h3>
+                    <p>Install CAP on Android using Termux</p>
+                    <pre><code>pkg install clang make unzip
+./termux-install.sh</code></pre>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Requirements -->
+    <section class="requirements">
+        <div class="container">
+            <h2>Requirements</h2>
+            <div class="requirements-grid">
+                <div class="requirement-item">
+                    <h4>Standard Platforms</h4>
+                    <ul>
+                        <li>C11-compatible compiler (gcc, clang, cc)</li>
+                        <li>POSIX-like shell environment</li>
+                        <li>Linux, macOS, BSD</li>
+                    </ul>
+                </div>
+                <div class="requirement-item">
+                    <h4>Android</h4>
+                    <ul>
+                        <li>Termux installed</li>
+                        <li>clang compiler</li>
+                        <li>make and unzip utilities</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Documentation Section -->
+    <section id="docs" class="documentation">
+        <div class="container">
+            <h2>Documentation</h2>
+            <div class="docs-grid">
+                <a href="https://github.com/TheCapman001/CAP/blob/main/docs/LANGUAGE.md" class="doc-card">
+                    <h3>Language Guide</h3>
+                    <p>Learn CAP syntax, operators, and language features</p>
+                    <span class="arrow">→</span>
+                </a>
+                <a href="https://github.com/TheCapman001/CAP/blob/main/docs/ARCHITECTURE.md" class="doc-card">
+                    <h3>Architecture</h3>
+                    <p>Understand how CAP works internally</p>
+                    <span class="arrow">→</span>
+                </a>
+                <a href="https://github.com/TheCapman001/CAP/blob/main/TERMUX.md" class="doc-card">
+                    <h3>Android/Termux Setup</h3>
+                    <p>Complete guide for installing on Android</p>
+                    <span class="arrow">→</span>
+                </a>
+                <a href="https://github.com/TheCapman001/CAP" class="doc-card">
+                    <h3>GitHub Repository</h3>
+                    <p>Browse source code and contribute</p>
+                    <span class="arrow">→</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>CAP</h4>
+                    <p>A simple programming language and runtime written in C11</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Links</h4>
+                    <ul>
+                        <li><a href="https://github.com/TheCapman001/CAP">GitHub</a></li>
+                        <li><a href="https://github.com/TheCapman001/CAP/releases">Releases</a></li>
+                        <li><a href="https://github.com/TheCapman001/CAP/issues">Issues</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="https://github.com/TheCapman001/CAP/blob/main/docs/LANGUAGE.md">Language Docs</a></li>
+                        <li><a href="https://github.com/TheCapman001/CAP/blob/main/docs/ARCHITECTURE.md">Architecture</a></li>
+                        <li><a href="https://github.com/TheCapman001/CAP/tree/main/examples">Examples</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 CAP Programming Language. All rights reserved. | <a href="https://github.com/TheCapman001/CAP">View on GitHub</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
